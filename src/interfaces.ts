@@ -9,12 +9,18 @@ export interface IVSCodeTheme {
     tokenColors: {
         name?: string;
         "scope": string[] | string,
-        "settings": {
-            foreground?: string;
-            background?: string;
-            fontStyle?: string;
-        }
+        "settings": IRule
     }[]
+}
+
+export interface IRule {
+    foreground?: string; 
+    background?: string; 
+    fontStyle?: string; 
+}
+
+export interface IMonacoRule extends IRule {
+    token: string;
 }
 
 export type IMonacoThemeRule = monaco.editor.ITokenThemeRule[]

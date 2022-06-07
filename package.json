@@ -20,6 +20,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --module umd --outDir lib/umd",
     "build-cjs": "tsc --module commonjs --outDir lib/cjs",
+    "watch": "tsc -w --module umd --outDir lib/umd",
+    "watch-cjs": "tsc -w --module commonjs --outDir lib/cjs",
     "prepublishOnly": "npm run build && npm run build-cjs"
   },
   "bin": {

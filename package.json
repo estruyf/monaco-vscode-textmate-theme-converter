@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/estruyf/monaco-vscode-textmate-theme-converter/issues"
   },
-  "main": "./lib/umd/index.js",
+  "main": "./dist/index.js",
   "keywords": [
     "monaco-editor",
     "monaco-textmate",

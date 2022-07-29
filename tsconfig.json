@@ -1,24 +1,19 @@
 {
-  "compileOnSave": false,
-  "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "importHelpers": true,
-    "inlineSourceMap": true,
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es5",
+		"outDir": "dist",
     "declaration": true,
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "strictNullChecks": false,
-    "target": "es5",
-    "lib": [
-      "es2017",
-      "dom"
-    ],
-    "baseUrl": "./",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "strict": false,
-  },
-  "exclude": ["./lib"]
+		"sourceMap": true,
+		"lib": [
+			"es6",
+			"DOM"
+		],
+		"rootDir": "src",
+		"strict": true
+	},
+	"exclude": [
+		"node_modules",
+		"dist"
+	]
 }

@@ -32,6 +32,5 @@
   },
   "peerDependencies": {
     "tslib": "^2.0.1"
-  },
-  "types": "./lib/umd/index.d.ts"
+  }
 }

@@ -150,5 +150,9 @@ export const updateColor = (value: string) => {
     return "";
   }
 
+  if (value === null) {
+    return "";
+  }
+
   return value;
 }

@@ -98,6 +98,10 @@ export const updateColor = (value: string) => {
     return `#${split}${split}`;
   }
 
+  if (value && value.startsWith(`#`) && value.length > 4 && value.length < 7) {
+    return "";
+  }
+
   if (value && value === "white") {
     return "#ffffff";
   }

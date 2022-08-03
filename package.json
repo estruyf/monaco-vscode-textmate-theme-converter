@@ -1,6 +1,6 @@
 {
   "name": "@estruyf/vscode-theme-converter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Converts Visual Studio Code themes to Monaco editor themes.",
   "author": "Elio Struyf <elio@struyfconsulting.be>",
   "repository": "https://github.com/estruyf/monaco-vscode-textmate-theme-converter",

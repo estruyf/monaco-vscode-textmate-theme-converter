@@ -6,6 +6,12 @@
 <!-- ![fix](https://img.shields.io/badge/-FIX-gray.svg?color=E28700) -->
 <!-- ![docs](https://img.shields.io/badge/-DOCS-gray.svg?color=978CD4) -->
 
+## 1.1.0 [2022-08-03]
+
+![improvement](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?color=487E83)
+
+- Remove invalid HEX values
+
 ## 1.0.0 [2022-07-29]
 
 ![new](https://img.shields.io/badge/-NEW-gray.svg?colorB=5792EC)
